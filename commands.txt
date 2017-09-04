@@ -1,0 +1,25 @@
+commands:
+1.git config --global http.proxy https://172.16.200.1:3128 (configuring proxy network if any)
+  git config --global http.proxy http://172.16.200.1:3128
+
+2.git config --global user.name "mouli085" (configuring persons using the repository ,without --global flag settings will only apply to the current repository that are currently in)
+  git config --global user.email "ttmouli@gmail.com"
+
+3.git init (intializing git repository)
+
+4.(i)ls (shows list of all files excluding hidden files in the folder)
+  (ii)ls -la (shows list of all files including hidden files in the folder)
+  (iii)ls -la .git (shows list of all files including hidden files in the git directory)
+
+5.git add first_file.txt (adds only this file, willbe written  as file name with extention)
+  git add . (adds all files)
+
+6.git commit -m "message1" (records the changes to file which has already been added)
+  git commit -m "message2" first-file.txt ( records only one file where several files have been added)
+  git commit -am "message3" (records all files already been added)
+
+7.git status [ status of working directory ,if there any untracked files or it is cleam]
+
+8.git log [gives information about all commits]
+
+  
