@@ -22,4 +22,15 @@ commands:
 
 8.git log [gives information about all commits]
 
+9.git diff [differentiate between old version of git and new version of git]
+  git diff file_name.txt [ differentiate between old version and new version of a specific file]
+  git diff -- staged
+  git diff -- cached
+
+10.(i)git branch [shows the branchs in the git]
+   (ii)git branch branch_name[creates a branch named branch_name]
+   (iii)git branch -m old_branch_name new_branch_name [renaming old branch'name to new branch's name]
+   (iv)git branch -d branch_name[delete local branch]
+   (v)git branch -D branch_name[forcefully delete a branch If the branch has not been fully merged with an upstream branch, or in HEAD if there is no upstream]
+   
   
