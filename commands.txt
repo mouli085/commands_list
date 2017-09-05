@@ -7,9 +7,9 @@ commands:
 
 3.git init (intializing git repository)
 
-4.(i)ls (shows list of all files excluding hidden files in the folder)
-  (ii)ls -la (shows list of all files including hidden files in the folder)
-  (iii)ls -la .git (shows list of all files including hidden files in the git directory)
+4.ls (shows list of all files excluding hidden files in the folder)
+  ls -la (shows list of all files including hidden files in the folder)
+  ls -la .git (shows list of all files including hidden files in the git directory)
 
 5.git add first_file.txt (adds only this file, willbe written  as file name with extention)
   git add . (adds all files)
@@ -27,10 +27,14 @@ commands:
   git diff -- staged
   git diff -- cached
 
-10.(i)git branch [shows the branchs in the git]
-   (ii)git branch branch_name[creates a branch named branch_name]
-   (iii)git branch -m old_branch_name new_branch_name [renaming old branch'name to new branch's name]
-   (iv)git branch -d branch_name[delete local branch]
-   (v)git branch -D branch_name[forcefully delete a branch If the branch has not been fully merged with an upstream branch, or in HEAD if there is no upstream]
+10.git branch [shows the branchs in the git]
+   git branch branch_name[creates a branch named branch_name]
+   git branch -m old_branch_name new_branch_name [renaming old branch'name to new branch's name]
+   git branch -d branch_name[delete local branch]
+   git branch -D branch_name[forcefully delete a branch If the branch has not been fully merged with an upstream branch, or in HEAD if there is no upstream]
+   git checkout branch_name [allows to check out and switches to desired branch.]
+   git checkout -b new_branch_name [at first creates new branch then switches]
+   git checkout -b new_branch_name branch_name [at first creates new branch depending on a existing branch then switches]
+   git merge branch_name [merges branch]
+   git merge --no-ff branch_name [merge to always create a merge commit instead of fast forwarding]
    
-  
