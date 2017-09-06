@@ -22,6 +22,9 @@ commands:
 7.git status [ status of working directory ,if there any untracked files or it is cleam]
 
 8.git log [gives information about all commits]
+  git log --pretty=oneline[shows commit history in oneline. commits hash address is full]
+  git log --oneline[shows commit history in oneline. commits hash address isnot full]
+
 
 9.git diff [differentiate between old version of git and new version of git]
   git diff file_name.txt [ differentiate between old version and new version of a specific file]
@@ -41,3 +44,5 @@ commands:
    git checkout file_name.txt [gets the file mentioned ]
    git checkout -b new_branch_name [at first creates new branch then switches]
    git checkout -b new_branch_name branch_name [at first creates new branch depending on a existing branch then switches] 
+
+13.git reset HEAD file_name.txt[reset change before commit after adding,unstage change then changes canbe removed using checkout that file]
