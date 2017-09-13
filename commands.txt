@@ -18,7 +18,7 @@ commands:
   git commit -m "message2" first-file.txt ( records only one file where several files have been added)
   git commit -am "message3" (records all files already been added)
   git commit --amend -m "message" (records the changes to file which has already been added and Replace the tip of the current branch by creating a new commit)
-
+  git commit --ament -m "msg" [Make EDITS to RECENT commit or the HEAD.]
 7.git status [ status of working directory ,if there any untracked files or it is cleam]
 
 8.git log [gives information about all commits]
