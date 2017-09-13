@@ -37,7 +37,7 @@ commands:
    git branch -d branch_name[delete local branch]
    git branch -D branch_name[forcefully delete a branch If the branch has not been fully merged with an upstream branch, or in HEAD if there is no upstream]
    
-11.git merge branch_name [Combines bookmarkâ€™s branch into current local branch]
+11.git merge branch_name [Combines bookmark’s branch into current local branch]
    git merge --no-ff branch_name [merge to always create a merge commit instead of fast forwarding]
 
 12.git checkout branch_name [allows to check out and switches to desired branch.]
@@ -53,7 +53,6 @@ commands:
    git push origin --delete branch_name[delete branch of working directory]
    git pull origin master[pulling a branch from online repository into local repository to synchronize] 
    git push -u alias branchname [pushes the branch to remote branch (example git push -u origin branch)]
-   git push --all -u [Pushing all branched to remote]
 
 15.git clone <url> [The clone command will create a copy of the repository on your local machine]
    git clone <url> mylibgit[That command does the same thing as the previous one, but the target directory is called mylibgit]
@@ -61,7 +60,7 @@ commands:
 16.git rm --cached file_name[Removes the file from version control but preserves the file locally]
    git rm file_name[Deletes the file from the working directory and stages the deletion]
 
-17.git marge branch_name[Combines the specified branchâ€™s history into the current branch]
+17.git marge branch_name[Combines the specified branch’s history into the current branch]
 
 18.git remote add <name> <url>[add a remote repository]
    git remote [view list of remote repository]
@@ -79,6 +78,6 @@ commands:
 
 22.git help[shows many basic git commands]
 
-23.git clean -f -d [remove untracked directories]
-
+23. git revert <commit>[Create new commit that undoes all of the changes made in
+<commit>, then apply it to the current branch.]
 
